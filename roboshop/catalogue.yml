@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: catalogue
+spec:
+  containers:
+    - name: cart
+      image: 208528724622.dkr.ecr.us-east-1.amazonaws.com/catalogue:2.0.0
