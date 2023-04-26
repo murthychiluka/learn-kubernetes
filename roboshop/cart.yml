@@ -27,10 +27,10 @@ spec:
         - mountPath: /params
           name: params
 
-      volumes:
+    volumes:
     - name: params
       emptyDir:
-      sizeLimit: 100Mi
+       sizeLimit: 100Mi
 
 ---
 apiVersion: v1
