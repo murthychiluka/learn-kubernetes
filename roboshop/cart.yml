@@ -5,6 +5,7 @@ metadata:
   labels:
     component: cart
 spec:
+  serviceAccountName: cart
   containers:
     - name: cart
       image: 208528724622.dkr.ecr.us-east-1.amazonaws.com/cart:2.0.0
