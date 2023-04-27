@@ -44,4 +44,9 @@ spec:
       port: 8080
       targetPort: 8080
 ---
-
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cart
+annotations:
+  eks.amazonaws.com/role-arn: arn:aws:iam::208528724622:role/ssm-for-eks
